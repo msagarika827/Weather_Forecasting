@@ -1,0 +1,130 @@
+/* Basic Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    
+    background: url('green-field-with-sunny-day_1160-940.avif');
+
+    color: #333;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container for the header */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255,255,255,.2);
+    color: #fff;
+}
+
+/* Logo Section */
+.logo h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.logo p {
+    font-size: 1rem;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0f8ff;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    color: #044687;
+    margin-bottom: 1rem;
+
+    /* Add a subtle text shadow */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    /* Optionally, add an outline (using a pseudo-element for better control) */
+    position: relative;
+}
+
+
+
+.hero-content p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Image Section */
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.images img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.Buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+   /* background-color: #f0f0f0;  
+    border-bottom: 1px solid #ccc;  optional */
+  }
+  
+  .Buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5372F0;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .Buttons button:hover {
+    background-color: #3e8e41;
+  }
